@@ -11,9 +11,9 @@
 1. It usage the NBP api to initially load exchange rate for different countries against PLN. 
    Currently it saves middle exchange rates from Table A & B (from NBP api) in pln_mid_exchange table in local database
    and bid & ask exchange rates from Table C (from NBP api) in pln_exchange table in local database.
-   it stores exchange rates for the last 10 data series.
+   it stores exchange rates for the last 10 date series.
    it load initial data only if local table is empty. it usage file based H2 database. Database can be found in `data` folder in root of project.
-   `TODO (improvement) : loads latest exchanges rate published if available in NBA api.`
+   `TODO (improvement) : to load latest exchanges rate published if available in NBA api.`
 2. it exposes two apis
     1. Returns sell exchange rate for provided code and published date for PLN
     ```javascript
