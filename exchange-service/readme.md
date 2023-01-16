@@ -4,7 +4,7 @@
 2. java(`>=8`)
 
 ## Execute command (from root of the project)
-1. mvn clean install (downloads dependencies and does other stuffs)
+1. mvn dependency (downloads dependencies) or mvn clean install (clens, reoslove dependencies, packaging etc...)
 2. mvn spring-boot:run (runs application at port 8080 if available)
 
 # What application does?
